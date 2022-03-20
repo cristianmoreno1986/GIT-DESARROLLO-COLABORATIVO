@@ -85,3 +85,28 @@ git add *.js
 git commit #me abre el editor por defecto que tengo configurado
 git commit -m "mensaje descriptivo de lo contiene el commit"
 ```
+
+### Ver la historia, listar commits
+
+```sh
+git log #versión larga, detallada
+git log --oneline #versión corta resumida
+```
+
+### Lo que tengo en el working directory y contra lo que no tengo en el repo(archivos)
+
+```sh
+git diff Readme.md
+```
+
+### Setencia para vincular a git-hub
+
+```sh
+git remote add origin https://github.com/cristianmoreno1986/git-desarrollo-colaborativo.git
+```
+
+### Sentencia para enviar la primera vez a git-hub
+
+```sh
+git push -u origin master
+```
