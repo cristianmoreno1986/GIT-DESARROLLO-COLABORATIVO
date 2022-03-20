@@ -6,7 +6,7 @@
 
 # Log
 
-# Para mostrar las dos ultimas líneas del log
+## Para mostrar las dos ultimas líneas de los commit
 
 ```sh
 git log --oneline 2 
@@ -48,4 +48,35 @@ git branch -D <nombre de la rama>
 
 ```sh
 git commit --amend
+```
+## Lista commit por fecha
+
+```sh
+git log --since="2022-03-20"
+git log --after="2022-03-20"
+git log --before="2022-03-20"
+git log --after="2022-03-20" --before="2022-03-20" --oneline
+```
+
+# GIT STASH
+Es una pila almacena el working directory
+Permite almacenar el working directory para seguir trabajando
+Los stash que creo solo estan en la copia local
+
+## Creo un stash
+
+```sh
+git stash
+```
+
+## Ver los stash
+
+```sh
+git stash list
+```
+
+## Recuperar un stash
+
+```sh
+git stash pop
 ```
