@@ -11,3 +11,41 @@
 ```sh
 git log --oneline 2 
 ```
+
+# GIT BRANCH
+
+## Creo rama
+
+```sh
+git branch <nombre de la rama>
+```
+
+## Listo ramas
+
+```sh
+git branch
+```
+
+## Cambio de rama
+
+```sh
+git switch <nombre de la rama>
+```
+
+## Eliminar una rama
+
+```sh
+git branch -d <nombre de la rama>
+```
+
+## Forzar eliminar una rama
+
+```sh
+git branch -D <nombre de la rama>
+```
+
+## Para modificar el ultimo commit
+
+```sh
+git commit --amend
+```
