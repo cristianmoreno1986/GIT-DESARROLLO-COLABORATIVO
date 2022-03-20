@@ -110,3 +110,9 @@ git remote add origin https://github.com/cristianmoreno1986/git-desarrollo-colab
 ```sh
 git push -u origin master
 ```
+
+### Sentencia para enviar despues de la primera vez git-hub
+
+```sh
+git push 
+```
